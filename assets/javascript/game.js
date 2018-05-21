@@ -167,8 +167,8 @@ window.onload = function() {
 		// Show answer
 		document.querySelector(".response").innerHTML = letter + "orrect! Its " + words[num] + "!";
 		document.querySelector(".character").innerHTML = '<img src="assets/images/' + words[num] + '.png">';
-		// Position spongebob properly
-		if (words[num] == 'SPONGEBOB' || words[num] == 'GARY') {
+		// Position thanos properly
+		if (words[num] == 'thanos' || words[num] == 'CAPTAINAMERICA') {
 			document.querySelector(".answer").className += ' moveRight';
 		} else {
 			document.querySelector(".answer").className = 'answer';
